@@ -99,7 +99,7 @@
 
 
     $.afui.toast=function(opts){
-        $(document.body).toast(opts);
+        return $(document.body).toast(opts);
     };
 
     $.afui.registerDataDirective("[data-toast]",function(item){
